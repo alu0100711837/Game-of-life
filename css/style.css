@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  color: white;
+}
+#window {
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#controls {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.frame {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 140px;
+  height: 150px;
+  margin-top: 20px;
+}
+.cell {
+  border: solid 1px grey;
+  height: 8px;
+  width: 8px;
+}
+
+.aliveCell {
+  background-color: lightGreen;
+}
+
+#myRange {
+  direction: rtl;
+  width: 100px;
+}
+
+#tableSize {
+  width: 30px;
+}

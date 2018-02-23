@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Alex</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<div id="window">
+  <h1>Game of life</h1>
+  <div id="controls">
+<button onClick = "play()">Step</button>
+<button onClick = fullPlay()>Play</button>
+<span>Densidad</span><input type="range" min="1" max="100" value="50" class="slider" id="myRange" onChange="initCells()">
+<span>Tamaño del tablero</span><input type="text" id="tableSize" value="30" onChange="setSize()">
+  </div>
+<div class="frame"></div>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
